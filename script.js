@@ -14,7 +14,8 @@ window.onload = () => {
     }
     document.body.innerHTML =
         `
-    <master>距离考研还剩 ${Math.floor(value)} 天</master>
+    <master>2023届考研已过去 ${-Math.floor(value)} 天</master>
+    <b>&nbsp;&nbsp;&nbsp;&nbsp;预期分数</b>
     <ul>
         <li>数一： ${scores.math}</li>
         <li>英一： ${scores.english}</li>
